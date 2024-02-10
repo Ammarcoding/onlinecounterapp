@@ -1,0 +1,62 @@
+body{
+    background-image: url('images/woolimg.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: none;
+    padding: none;
+    font-family: 'Happy Monkey', system-ui;
+    font-family: 'Lato', sans-serif;
+
+}
+#container{
+  margin: 60px;
+  background-color: white;
+  background: linear-gradient(#00b4d8, pink);
+  padding: 50px;
+  border-radius: 10px;
+  border: 2px solid black;
+  text-align: center;
+
+}
+
+h2{
+    font-size: 50px;
+    margin: 0 10px 0 0;
+}
+
+button{
+    padding: 15px 40px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+    color: black;
+    font-weight: bolder;
+    font-size: 15px;
+}
+#first-btn{
+    background-color: #70e000;
+}
+#second-btn{
+    background-color:#c1121f;
+}
+
+#third-btn{
+    background-color: #00b4d8;
+}
+#saved-count{
+    margin-top: 15px;
+    font-weight: bold;
+}
+#first-btn:hover{
+    background-color: darkgreen;
+}
+#second-btn:hover{
+    background-color: darkred;
+}
+#third-btn:hover{
+    background-color: darkblue;
+}
